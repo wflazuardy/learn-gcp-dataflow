@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learn-gcp-dataflow"
+version = "0.1.0"
+description = "Personal project to learn GCP's Dataflow."
+authors = ["Wildan Fajria Lazuardy <wflazuardy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+wheel = "^0.42.0"
+apache-beam = {extras = ["gcp"], version = "^2.54.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
